@@ -1,5 +1,6 @@
 package com.github.khikki.rechests.tile;
 
+import com.github.khikki.rechests.block.VariantChestBlock;
 import com.github.khikki.rechests.chest.ChestVariant;
 import com.github.khikki.rechests.chest.IVariantChest;
 import cpw.mods.fml.relauncher.Side;
@@ -74,7 +75,7 @@ public class VariantChestTileEntity extends TileEntityChest {
 
         Block ownBlock = this.getBlockType();
         Block otherBlock = this.worldObj.getBlock(x, y, z);
-        return ownBlock != null && ownBlock == otherBlock;
+        return ownBlock != null && ownBlock == otherBlock && otherBlock instanceof VariantChestBlock;
     }
 
     private void validateAdjacentChest(TileEntityChest otherChest, int direction) {
