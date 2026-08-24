@@ -1,16 +1,21 @@
-[
-  {
-    "modid": "rechests",
-    "name": "Re:Chests",
-    "description": "Vanilla-friendly wooden chest variants, trapped chests, and chest minecarts for Forge 1.7.10.",
-    "version": "${version}",
-    "mcversion": "${mcversion}",
-    "url": "https://github.com/Khikki/reChests",
-    "updateUrl": "",
-    "authorList": ["marki"],
-    "credits": "",
-    "logoFile": "",
-    "screenshots": [],
-    "dependencies": []
-  }
-]
+{
+	"modListVersion": 2,
+	"modList": [{
+		"modid": "${modId}",
+		"name": "${modName}",
+		"description": "Vanilla-friendly wooden chest variants, trapped chests, and chest minecarts for Forge 1.7.10.",
+		"version": "${modVersion}",
+		"mcversion": "${minecraftVersion}",
+		"url": "https://github.com/Khikki/reChests",
+		"updateUrl": "",
+		"authorList": ["marki"],
+		"credits": "",
+		"logoFile": "",
+		"screenshots": [],
+		"parent": "",
+		"requiredMods": [],
+		"dependencies": [],
+		"dependants": [],
+		"useDependencyInformation": false
+	}]
+}
